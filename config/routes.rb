@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   # create all article actions
   resources :articles
+  # create category actions
+  resources :categories, except: [:destroy]
 
   # custom about route for pages controller
   get '/about' => 'pages#about'
