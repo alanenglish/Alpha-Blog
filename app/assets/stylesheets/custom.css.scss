@@ -102,6 +102,10 @@ $navbar-default-bg: #151817;
   background: #9A9A9A;
   text-transform: lowercase;
   text-align: center;
+  &.edit {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
 }
 
 .badge-link {
